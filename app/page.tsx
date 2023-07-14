@@ -26,7 +26,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='basis-1 px-8'>
-              <a href="nvikelo2000@gmail.com">
+              <a href="mailto: nvikelo2000@gmail.com">
                   <h1 className='text-pastel-pink text-opacity-60 hover:text-opacity-100 cursor-pointer animate-fade-in'>
                     Contact
                   </h1>
