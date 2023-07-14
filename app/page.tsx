@@ -40,7 +40,7 @@ export default function Home() {
               <div className=' drop-shadow-xl '>
                 <Image src={propic} alt="none" className='h-32 w-32 border-2 '/>
               </div>
-              <p className='w-72 text-sm md:text-lg md:max-w-md px-1 text-pastel-pink text-opacity-60 '>
+              <p className='w-72 md:w-96 text-sm md:text-lg md:max-w-md px-1 text-pastel-pink text-opacity-60 '>
                 Hey, I&apos;m Nvikelo. Im a Front-End Web Developer and Game Developer
                 based out of British Columbia, Canada.
               </p>
@@ -74,7 +74,7 @@ export default function Home() {
               </h1>
             </a>
           </div>
-          <div className=' h-px sm:mx-12 md:mx-24 bg-gradient-to-r from-off-white'></div>
+          <div className=' h-px mx-12 md:mx-24 bg-gradient-to-r from-off-white'></div>
           <div className='justify-center p-4 shadow-lg flex flex-wrap gap-6 md:mx-12 xl:mx-48 my-8 h-3/4 overflow-y-auto lg:overflow-x-auto'>
           {/* Push */}
           <Panel 
