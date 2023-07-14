@@ -54,7 +54,7 @@ export default function Home() {
                   <a href="https://drive.google.com/file/d/1tOWZzemTzA2dCMJNaVnbrOyYPa2QHqZM/view?usp=sharing"><IoDocumentText className='text-off-white text-3xl drop-shadow-xl  hover:animate-wiggle'/></a>
                 </li>
                 <li className='py-6 px-3'>
-                  <a href="#https://www.linkedin.com/in/nvikelonyathi/"><IoLogoLinkedin height={32} className='text-off-white text-3xl drop-shadow-xl  hover:animate-wiggle'/></a>
+                  <a href="https://www.linkedin.com/in/nvikelonyathi/"><IoLogoLinkedin height={32} className='text-off-white text-3xl drop-shadow-xl  hover:animate-wiggle'/></a>
                 </li>
               </ul>
               <div className='w-26 md:w-80 p-6 flex text-pastel-pink text-opacity-50 animate-pulse justify-center '>
