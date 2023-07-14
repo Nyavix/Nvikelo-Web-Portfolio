@@ -37,7 +37,7 @@ export default function Home() {
                 <Image src={propic} alt="none" className='h-32 w-32 border-2'/>
               </div>
               <p className='max-w-md px-2 text-pastel-pink text-opacity-60'>
-                Hey, I'm Nvikelo. Im a Front-End Web Developer and Game Developer
+                Hey, I&apos;m Nvikelo. Im a Front-End Web Developer and Game Developer
                 based out of British Columbia, Canada.
               </p>
             </div>
