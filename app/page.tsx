@@ -10,7 +10,7 @@ import Panel from './components/panels'
 export default function Home() {
   return (
     <main>
-      <div className='snap-y snap-mandatory h-screen w-screen overflow-x-auto overflow-y-auto'>
+      <div className='snap-y snap-mandatory h-screen w-screen overflow-x-hidden overflow-y-auto'>
       <Particles
           className="absolute inset-0 -z-10 animate-title bg-dark-violet"
           quantity={100}
