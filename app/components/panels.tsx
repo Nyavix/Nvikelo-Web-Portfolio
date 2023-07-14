@@ -27,26 +27,28 @@ function Panel ({
     
     return (
         <a href={WebLink} 
-            className='group max-w-md w-fit h-fit p-4
+            className='group max-w-md w-96 h-72 p-4
             bg-off-white bg-opacity-10 rounded-xl border
             border-off-white transition ease-in-out hover:shadow-lg hover:scale-105'>
-              <div className='text-off-white'>
+              <div className='text-off-white h-full'>
                 <div className="flex justify-between">
-                    <h1 className="flex-1">{ProjectName}</h1>
+                    <h1 className="flex-1 text-xl">{ProjectName}</h1>
                     <LuJoystick className={TypeNumber==1? "visible flex-initial":"hidden flex=none"}/>
                     <LuFileQuestion className={TypeNumber==0? "visible flex-initial":"hidden flex=none"}/>
                     <LuLayout className={TypeNumber==2? "visible flex-initial":"hidden flex=none"}/>
                     <LuGithub className={TypeNumber==3? "visible flex-initial":"hidden flex=none"}/>
                 </div>
-                <p className='p-4'>
-                  {Description}
-                </p>
+                <div className="flex flex-col h-5/6 justify-between">
+                  <p className='p-4'>
+                    {Description}
+                  </p>
                   <div className='flex justify-between'>
                     <h1 className='text-xs text-pastel-pink text-opacity-60'>
-                        {ToolsUsed}
+                          {ToolsUsed}
                     </h1>
                     <IoChevronForwardOutline className='group-hover:animate-ping'/>
                   </div>
+                </div>
               </div>
             </a>
     );
