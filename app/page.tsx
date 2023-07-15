@@ -6,6 +6,7 @@ import {IoLogoLinkedin} from 'react-icons/io5'
 import {IoLogoGithub} from 'react-icons/io5'
 import {IoCaretDownCircleOutline} from 'react-icons/io5'
 import Panel from './components/panels'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           className="absolute inset-0 -z-10 animate-title bg-dark-violet"
           quantity={100}
         />
+        <Analytics />
         <div className='flex snap-start h-screen w-screen'> 
           <div className='text-center m-auto'>
             <ul className='flex flex-row justify-center h-auto p-14'>
@@ -91,7 +93,7 @@ export default function Home() {
             ToolsUsed='Tools used: NextJS, Tailwind, Visual Studio Code'
             WebLink=''
             TypeNumber={2}/>
-
+            {/* Soulless */}
             <Panel 
             ProjectName='Soulless'
             Description='Collaborated with a multidisciplinary team to bring "Soulless" 
@@ -101,7 +103,7 @@ export default function Home() {
             ToolsUsed='Tools used: Unity 3D, C#, Ableton Live'
             WebLink='https://mentalpizza.itch.io/soulless'
             TypeNumber={1}/>
-
+            {/* Lost & Found */}
             <Panel 
             ProjectName='Lost & Found'
             Description='Demonstrated creativity and attention to detail in designing 
@@ -111,14 +113,14 @@ export default function Home() {
             ToolsUsed='Tools used: Unity 3D, Blender 3D, Photoshop'
             WebLink='https://rabidblueberry.itch.io/william-billiams-big-adventure'
             TypeNumber={1}/>
-
+            {/* NotoApp */}
             <Panel 
             ProjectName='NotoAPP'
             Description='Android note taking application with a simple yet beautiful ui design' 
             ToolsUsed='Tools used: Android Studio, Java'
             WebLink='https://github.com/Nyavix/NotoAPP/tree/master/app'
             TypeNumber={3}/>
-
+            {/* Overhaul */}
             <Panel 
             ProjectName='Overhaul'
             Description='A game made for Global Game Jam 2020' 
