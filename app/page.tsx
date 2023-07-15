@@ -6,7 +6,6 @@ import {IoLogoLinkedin} from 'react-icons/io5'
 import {IoLogoGithub} from 'react-icons/io5'
 import {IoCaretDownCircleOutline} from 'react-icons/io5'
 import Panel from './components/panels'
-import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
           className="absolute inset-0 -z-10 animate-title bg-dark-violet"
           quantity={100}
         />
-        <Analytics />
+        
         <div className='flex snap-start h-screen w-screen'> 
           <div className='text-center m-auto'>
             <ul className='flex flex-row justify-center h-auto p-14'>
