@@ -5,14 +5,6 @@ import Particles from '../components/particles'
 
 export default function App() {
 
-    const firstContent =
-    "Throughout my academic journey, I may not have consistently held the title of a \"star student,\" but my experiences and achievements beyond the classroom underscore my unwavering determination, resilience, and passion for learning.";
-    
-    const secondContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-    const thirdContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
   return (
     <main className='h-screen w-screen overflow-x-hidden overflow-y-auto'>
         <Particles
@@ -61,9 +53,9 @@ export default function App() {
         },
       }}
     >
-      <AccordionItem className="shadow-lg px-6 py-2 text-off-white" key="1" aria-label="Accordion 1" 
-      title="How I have overcome barriers, demonstrated resilience and shown drive for learning in my life">
-        <div className="mx-12 text-pastel-pink text-opacity-60">
+      <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="1" aria-label="Accordion 1" 
+      title="Overcome barriers, demonstrated resilience and drive for learning">
+        <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>Throughout my academic journey, I may not have consistently held the title of a <q>star student,</q> but my experiences and achievements beyond the classroom underscore my unwavering determination, resilience, and passion for learning.</p>
           <br />
           <p>From a young age, I embarked on a journey of self-discovery and self-improvement by delving into the world of programming at the tender age of 13. My insatiable curiosity led me down the path of game development, a field where I had no formal education or guidance. Over the past decade, I've proven that my thirst for knowledge knows no bounds.</p>
@@ -76,9 +68,9 @@ export default function App() {
           <br />
         </div>
       </AccordionItem>
-      <AccordionItem className="shadow-lg px-6 py-2 text-off-white" key="2" aria-label="Accordion 2" 
-      title="How the learning opportunity I've selected will help me hone my skills and develop new skills">
-        <div className="mx-12 text-pastel-pink text-opacity-60">
+      <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="2" aria-label="Accordion 2" 
+      title="Learning opportunities and skill development">
+        <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>Enrolling in a computer science bachelor program is a significant learning opportunity that promises to greatly enhance my existing skills while enabling the development of new ones. The multidisciplinary nature of the program will expose me to a wide array of subjects and methodologies, laying a strong foundation for a diverse skill set. Through specialized courses in programming languages, data structures, and algorithms, I can refine my coding proficiency and analytical problem-solving abilities. This will not only help me to master my current programming skills but also expand my repertoire, preparing me for a more versatile role in the tech industry.</p>
           <br />
           <p>Additionally, the program's curriculum is designed to encourage collaborative learning and teamwork, often involving group projects and assignments. This experience will nurture my interpersonal and communication skills, which are vital in the professional world. Working with classmates from diverse backgrounds and perspectives will enhance my adaptability and open-mindedness, preparing me to excel in team-based software development projects and interdisciplinary collaborations.</p>
@@ -89,9 +81,9 @@ export default function App() {
           <br />
         </div>
       </AccordionItem>
-      <AccordionItem className="shadow-lg px-6 py-2 text-off-white" key="3" aria-label="Accordion 3" 
-      title="Why I am excited for the learning opportunity and how it will impact my life">
-        <div className="mx-12 text-pastel-pink text-opacity-60">
+      <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="3" aria-label="Accordion 3" 
+      title="learning opportunities and impact on life">
+        <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>I'm excited about the learning opportunity presented by pursuing a bachelor's degree in computer science, as it promises to be a transformative journey for several compelling reasons. Firstly, I'm eager to deepen my comprehension of the intricate world of computers and software development. These technologies have become integral to our daily lives, and understanding them better will not only empower me but also allow me to contribute more effectively to the rapidly evolving digital landscape.</p>
           <br />
           <p>Furthermore, the prospect of attaining a computer science degree fills me with enthusiasm because it will significantly boost my credibility and proficiency as a programmer. This formal education will provide me with a comprehensive knowledge base and a structured learning environment, enabling me to acquire not only coding skills but also a deeper understanding of software development principles, algorithms, and problem-solving techniques. With this elevated expertise, I can not only excel in my career but also make meaningful contributions to my community by creating innovative solutions that address real-world problems.</p>
