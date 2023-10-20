@@ -11,10 +11,18 @@ export default function App() {
           className="absolute inset-0 -z-10 animate-title bg-dark-violet"
           quantity={100}
         />
-        <h1 className='text-3xl md:text-6xl py-10 font-poppins text-center text-off-white py-6 animate-title'>
+        <div className="px-8 py-12 ">
+          <a href="/">
+            <h1 className='text-pastel-pink px-4 text-opacity-60 hover:text-opacity-100 cursor-pointer animate-fade-in'>
+                Portfolio
+            </h1>
+          </a>
+          <h1 className='text-3xl md:text-6xl font-poppins text-center text-off-white py-6 animate-title'>
               Why Computer Science
             </h1>
-        <div className="xl:py-10 px-6 md:px-24 xl:px-96 animate-title">
+        </div>
+        
+        <div className="xl:py-10 px-6 md:px-24 xl:px-96  animate-fade-in">
             <Accordion defaultExpandedKeys={["1"]}
       motionProps={{
         variants: {
@@ -53,7 +61,7 @@ export default function App() {
         },
       }}
     >
-      <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="1" aria-label="Accordion 1" 
+      <AccordionItem className="shadow-md px-6 py-2 text-off-white text-lg" key="1" aria-label="Accordion 1" 
       title="Overcoming Barriers, Demonstrating Resilience and Drive for Learning">
         <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>Throughout my academic journey, I may not have consistently held the title of a <q>star student,</q> but my experiences and achievements beyond the classroom underscore my unwavering determination, resilience, and passion for learning.</p>

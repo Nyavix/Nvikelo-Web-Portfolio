@@ -16,7 +16,7 @@ export default function Home() {
           quantity={100}
         />
         
-        <div className='flex snap-start h-screen w-screen'> 
+        <div className='flex snap-start h-screen w-screen'>
           <div className='text-center m-auto'>
             <ul className='flex flex-row justify-center h-auto p-14'>
               <li className='basis-1 px-8'>
@@ -30,6 +30,13 @@ export default function Home() {
               <a href="mailto: nvikelo2000@gmail.com">
                   <h1 className='text-pastel-pink text-opacity-60 hover:text-opacity-100 cursor-pointer animate-fade-in'>
                     Contact
+                  </h1>
+                </a>
+              </li>
+              <li>
+                <a href="/whycompsci">
+                  <h1 className='text-pastel-pink px-4 text-right text-opacity-60 hover:text-opacity-100 cursor-pointer animate-fade-in'>
+                  Why CompSci
                   </h1>
                 </a>
               </li>
