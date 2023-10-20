@@ -22,7 +22,7 @@ export default function App() {
             </h1>
         </div>
         
-        <div className="xl:py-10 px-6 md:px-24 xl:px-96  animate-fade-in">
+        <div className="xl:py-4 px-6 md:px-24 xl:px-96  animate-fade-in">
             <Accordion defaultExpandedKeys={["1"]}
       motionProps={{
         variants: {
