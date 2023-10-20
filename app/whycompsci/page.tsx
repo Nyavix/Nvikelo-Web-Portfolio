@@ -11,7 +11,7 @@ export default function App() {
           className="absolute inset-0 -z-10 animate-title bg-dark-violet"
           quantity={100}
         />
-        <div className="px-8 py-12 ">
+        <div className="px-8 py-6 ">
           <a href="/">
             <h1 className='text-pastel-pink px-4 text-opacity-60 hover:text-opacity-100 cursor-pointer animate-fade-in'>
                 Portfolio
