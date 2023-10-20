@@ -54,7 +54,7 @@ export default function App() {
       }}
     >
       <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="1" aria-label="Accordion 1" 
-      title="Overcome barriers, demonstrated resilience and drive for learning">
+      title="Overcoming Barriers, Demonstrating Resilience and Drive for Learning">
         <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>Throughout my academic journey, I may not have consistently held the title of a <q>star student,</q> but my experiences and achievements beyond the classroom underscore my unwavering determination, resilience, and passion for learning.</p>
           <br />
@@ -69,7 +69,7 @@ export default function App() {
         </div>
       </AccordionItem>
       <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="2" aria-label="Accordion 2" 
-      title="Learning opportunities and skill development">
+      title="Learning Opportunities and Skill Development">
         <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>Enrolling in a computer science bachelor program is a significant learning opportunity that promises to greatly enhance my existing skills while enabling the development of new ones. The multidisciplinary nature of the program will expose me to a wide array of subjects and methodologies, laying a strong foundation for a diverse skill set. Through specialized courses in programming languages, data structures, and algorithms, I can refine my coding proficiency and analytical problem-solving abilities. This will not only help me to master my current programming skills but also expand my repertoire, preparing me for a more versatile role in the tech industry.</p>
           <br />
@@ -82,7 +82,7 @@ export default function App() {
         </div>
       </AccordionItem>
       <AccordionItem className="shadow-lg px-6 py-2 text-off-white text-lg" key="3" aria-label="Accordion 3" 
-      title="learning opportunities and impact on life">
+      title="Learning Opportunities and Impact">
         <div className="mx-12 text-pastel-pink text-opacity-60 text-base">
           <p>I'm excited about the learning opportunity presented by pursuing a bachelor's degree in computer science, as it promises to be a transformative journey for several compelling reasons. Firstly, I'm eager to deepen my comprehension of the intricate world of computers and software development. These technologies have become integral to our daily lives, and understanding them better will not only empower me but also allow me to contribute more effectively to the rapidly evolving digital landscape.</p>
           <br />
