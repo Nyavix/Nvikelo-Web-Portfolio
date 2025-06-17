@@ -208,8 +208,20 @@ const PortfolioPage = () => (
         <h2 className="text-4xl font-bold text-white mb-2">Portfolio</h2>
         <div className="w-16 h-1 bg-accent rounded-full mb-8"></div>
         <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-[var(--bg-card)] rounded-2xl overflow-hidden border border-[var(--border-color)] hover:border-accent transition-all duration-300 transform hover:-translate-y-1"><img src="https://placehold.co/600x400/3498db/ffffff?text=Project+One" alt="Project One" className="w-full h-56 object-cover" /><div className="p-5"><h3 className="font-bold text-xl text-slate-100">E-commerce Platform</h3><p className="text-slate-400">Web Application</p></div></div>
-            <div className="bg-[var(--bg-card)] rounded-2xl overflow-hidden border border-[var(--border-color)] hover:border-accent transition-all duration-300 transform hover:-translate-y-1"><img src="https://placehold.co/600x400/e74c3c/ffffff?text=Project+Two" alt="Project Two" className="w-full h-56 object-cover" /><div className="p-5"><h3 className="font-bold text-xl text-slate-100">Interactive Dashboard</h3><p className="text-slate-400">Data Visualization</p></div></div>
+            <div className="bg-[var(--bg-card)] rounded-2xl overflow-hidden border border-[var(--border-color)] hover:border-accent transition-all duration-300 transform hover:-translate-y-1">
+              <img src="https://placehold.co/600x400/3498db/ffffff?text=Project+One" alt="Project One" className="w-full h-56 object-cover" />
+                <div className="p-5">
+                  <h3 className="font-bold text-xl text-slate-100">E-commerce Platform</h3>
+                  <p className="text-slate-400">Web Application</p>
+                </div>
+            </div>
+            <div className="bg-[var(--bg-card)] rounded-2xl overflow-hidden border border-[var(--border-color)] hover:border-accent transition-all duration-300 transform hover:-translate-y-1">
+              <img src="https://placehold.co/600x400/e74c3c/ffffff?text=Project+Two" alt="Project Two" className="w-full h-56 object-cover" />
+              <div className="p-5">
+                <h3 className="font-bold text-xl text-slate-100">Interactive Dashboard</h3>
+                <p className="text-slate-400">Data Visualization</p>
+              </div>
+            </div>
         </div>
     </div>
 );
