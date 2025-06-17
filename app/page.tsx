@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import propic from '../public/ProfilePic.png'
+import propic from '@/public/ProfilePic.png'
 import Particles from './components/particles'
 import {IoDocumentText} from 'react-icons/io5'
 import {IoLogoLinkedin} from 'react-icons/io5'
